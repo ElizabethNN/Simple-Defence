@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PointBullet">
+    <Position X="4" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKCAIiAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Bullets\BaseBullets\PointBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TargetBullet">
+    <Position X="1" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKCAAiAAAAAAAAAAACABIAAAAAAAAAAgAAAAAAY=</HashCode>
+      <FileName>Assets\Scripts\Bullets\BaseBullets\TargetBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MortarBullet">
+    <Position X="4" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Bullets\MortarBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SniperBullet">
+    <Position X="1" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Bullets\SniperBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraMovement">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAACAAAAAAAAAAAAAAAAAAAEAAAhAAAAEAAAE=</HashCode>
+      <FileName>Assets\Scripts\Control\CameraMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TurretBrush">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQFAAAAAAAAAAAAAACAwAAABACAAAAAAEAAAIAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Control\TurretBrush.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirEnemy">
+    <Position X="11.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\AirEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy">
+    <Position X="9.75" Y="6.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Enemy.OnEnemyHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Enemies\Enemy.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAACgCAAiAAoAAEAAAEAAJBAEICBQAAAAAAgAAAAA4=</HashCode>
+      <FileName>Assets\Scripts\Enemies\Enemy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="routeManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GroundEnemy">
+    <Position X="8" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\GroundEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyManager">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABFAAAAQCAEAAAAIAAAAAAABCEEQAABAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\General\EnemyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerResources">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAViAAAAAAAAAAAIACEAAAABAAAQAAAAAAAAACAEEg=</HashCode>
+      <FileName>Assets\Scripts\General\PlayerResources.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="spawners" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ManualRouteManager">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAgAAAAICAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Map\Spawners\RouteManager\ManualRouteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RouteManager">
+    <Position X="12.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Map\Spawners\RouteManager\RouteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spawner">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Spawner.OnSpawnEnemyHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Map\Spawners\Spawner.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAiAAAAAAAAAAAAAEAQAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Map\Spawners\Spawner.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="manager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClosestTarget" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Turrets\Targeting strategies\ClosestTarget.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Turret">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiAABAABIAAAAAAACQAAAAAAAAAAAAAEAAY=</HashCode>
+      <FileName>Assets\Scripts\Turrets\Turret.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="enemyManager" />
+      <Field Name="Targeting" />
+      <Property Name="LevelManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AirTurret">
+    <Position X="8" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="Turret" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="3.338" />
+        <Point X="5.25" Y="5.069" />
+        <Point X="8.75" Y="5.069" />
+        <Point X="8.75" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Turrets\TurretClasess\BaseClasses\AirTurret.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GroundTurret">
+    <Position X="1.25" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="Turret" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="5.25" Y="3.338" />
+        <Point X="5.25" Y="5.075" />
+        <Point X="2" Y="5.075" />
+        <Point X="2" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Turrets\TurretClasess\BaseClasses\GroundTurret.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleTurret">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Turrets\TurretClasess\BaseClasses\SimpleTurret.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicTurret">
+    <Position X="3.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Turrets\TurretClasess\BasicTurret.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MortarTurret">
+    <Position X="1.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Turrets\TurretClasess\MortarTurret.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SniperTurret">
+    <Position X="5.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Turrets\TurretClasess\SniperTurret.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TurretLevelManager">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="TurretLevelManager.TurretLevel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Turrets\TurretLevelManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAFCIAAGAAAAAAAABAABAAEAABAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Turrets\TurretLevelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActiveTurret">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAAAAAAAAEAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ActiveTurret.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Health">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAECAAAAAAAAAEAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Health.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Money">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAECAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Money.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TargetingStrategyInterface">
+    <Position X="0.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Turrets\Targeting strategies\TargetingStrategyInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
